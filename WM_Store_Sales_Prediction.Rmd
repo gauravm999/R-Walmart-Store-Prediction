@@ -2,12 +2,7 @@
 title: "Walmart Store Sales Prediction"
 author: "Gaurav Mahajan"
 date: "1/19/2021"
-output:
-  pdf_document: default
-  word_document: default
-  html_document: default
 ---
-
 linkedin profile: linkedin.com/in/mahajang
 
 Perform statistics and build  Prediction models to forecast Store demand
@@ -18,8 +13,8 @@ library(dplyr)
 library(caret)
 library(car)
 
-setwd("C:/OLD_LAPTOP/Gaurav/Purdue/4. Data Science with R/5. Gradable_Projects")
-Walmart_data<- read.csv("C:/OLD_LAPTOP/Gaurav/Purdue/4. Data Science with R/5. Gradable_Projects/Walmart_Store_sales.csv", header=TRUE)
+setwd("C:/")
+Walmart_data<- read.csv("C:/Walmart_Store_sales.csv")
 
 dim(Walmart_data)
 names(Walmart_data)
